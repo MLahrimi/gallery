@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <script src="https://kit.fontawesome.com/ebc956ee0c.js" crossorigin="anonymous"></script>
+    <script src="home.js"></script>
+    <title>Home</title>
+
+</head> 
+<body>
+
+    <div id="div1">
+        <p>WELCOME BACK</p>
+        <i id="face-grin-wide" class="fa-solid fa-face-grin-wide"></i>
+        <i class="fa-solid fa-face-grin-beam"></i>
+    </div>
+    <div id="div2">
+        <h2>Sign In to Your Account</h2>
+        <h5>Let's get you signed in and straight to the gallery.</h5>
+        
+        <form method="post" action="Data_evaluation.php" >
+             <div class="Email-Input-Icon">
+                <label for="emailInput">Email address</label><br>
+                <div class="div-emailInput-icon">
+                    <input id="emailInput" type="email" name="Email address" placeholder="e.g. tchalla@wakanda.com" onclick= "VisibitityFaceGrinWide()">
+                    <i class="fa-solid fa-envelope"></i> 
+                </div> 
+            </div> 
+            <br> 
+            <div class="psw-Input-Icon">
+                <label for="pswInput">Password</label><br>
+                <input id="pswInput" type="password" name="password" onclick= "VisibitityFaceGrinWide()">
+                <i class="fa-solid fa-lock"></i>
+                <div role="button" class= "passordButtom" onclick="passwordVisibilitySwitch()">
+                    <i class="fa-solid fa-eye visibleIcon"></i>
+                    <i class="fa-solid fa-eye-slash hiddenIcon"></i> 
+                </div>
+
+            </div>
+            <br>
+            <div>
+                <button id="Sign-In-Input" type="button" name="sign_In"><a href="Gallery.html" style="text-decoration: none; color: black;">Sign In</a></button><br><br>
+                <input id="stayLoggedInInput" type="checkbox" name="stay_logged" >
+                <label id="Remember_me" for="stayLoggedInInput">Remember me</label><br><br>
+            </div> 
+        </div>     
+        </form>    
+    </div>  
+</body>
+</html>
