@@ -22,27 +22,26 @@
         
         <form method="post" action="Data_evaluation.php" >
              <div class="Email-Input-Icon">
-                <label for="emailInput">Email address</label><br>
+                <label for="emailInput">Email address</label>
                 <div class="div-emailInput-icon">
-                    <input id="emailInput" type="email" name="Email address" placeholder="e.g. tchalla@wakanda.com" onclick= "VisibitityFaceGrinWide()">
+                    <input id="emailInput" type="email" placeholder="e.g. tchalla@wakanda.com" onclick= "VisibitityFaceGrinWide()">
                     <i class="fa-solid fa-envelope"></i> 
                 </div> 
             </div> 
-            <br> 
+             
             <div class="psw-Input-Icon">
-                <label for="pswInput">Password</label><br>
-                <input id="pswInput" type="password" name="password" onclick= "VisibitityFaceGrinWide()">
+                <label for="pswInput">Password</label>
+                <input id="pswInput" type="password" onclick= "VisibitityFaceGrinWide()">
                 <i class="fa-solid fa-lock"></i>
                 <div role="button" class= "passordButtom" onclick="passwordVisibilitySwitch()">
                     <i class="fa-solid fa-eye visibleIcon"></i>
                     <i class="fa-solid fa-eye-slash hiddenIcon"></i> 
                 </div>
-
             </div>
-            <br>
-            <div>
-                <button id="Sign-In-Input" type="button" name="sign_In"><a href="Gallery.html" style="text-decoration: none; color: black;">Sign In</a></button><br><br>
-                <input id="stayLoggedInInput" type="checkbox" name="stay_logged" >
+            
+            <div class="SignIn">
+                <a class="link-button" href="Gallery.html" style="text-decoration: none; color: black;">Sign In</a>
+                <input id="stayLoggedInInput" type="checkbox" name="stay_logged">
                 <label id="Remember_me" for="stayLoggedInInput">Remember me</label><br><br>
             </div> 
         </div>     

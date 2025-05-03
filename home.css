@@ -20,7 +20,7 @@ p{
 
 @media (max-width:276px){
     p{
-         font-size: 0.7em;
+        font-size: 0.7em;
     } 
  }
  
@@ -50,7 +50,7 @@ label{
     left: 45%; 
 }
 
-#emailInput, #pswInput, #Sign-In-Input{
+#emailInput, #pswInput{
     width: 100%;
     height: 50px ;
     border: 2px solid black;
@@ -59,14 +59,15 @@ label{
     font-size: 1em;
 }
 
+#emailInput:focus, #pswInput:focus {
+    border: 5px solid  yellowgreen;
+}
+
 #pswInput[type=password] ~ .passordButtom .hiddenIcon,
 #pswInput[type=text] ~ .passordButtom .visibleIcon
 {
     display: none;
 }
-
-
-
 
 .div-emailInput-icon{                                                            
     position: relative;
@@ -74,6 +75,7 @@ label{
 
 .psw-Input-Icon{
     position: relative;
+    margin-top: 20px;
 }
 
 .fa-envelope, .fa-lock{
@@ -96,19 +98,38 @@ label{
     top: 35px;
 }
 
-#Sign-In-Input{
+.SignIn{
+    margin: 40px 0;
+    position: relative;
+}
+
+.link-button{
+    padding: 13px 150px;
+    border: 2px solid black;
+    border-radius: 10px;
     background-color: #ffff00;
     font-weight: bold;
     box-shadow: 0 6px;
     text-align: center;
 }
 
-#Sign-In-Input:hover{
+.link-button:hover{
     background-color: #857408;
 } 
 
+#stayLoggedInInput{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+
+}
+
 #Remember_me{
+    position: absolute;
+    top: 50px;
+    left: 35px;
     font-size: 1em;
+
 }
 
 
