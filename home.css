@@ -1,8 +1,7 @@
 body{
     background-image:url(background_image.png);
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 *{
@@ -28,7 +27,7 @@ label{
     font-size: 12px;
 }
 
-#div1, #div2{
+#div_welcome, #div_account{
     max-width: 420px;
     padding: 20px;
     background-color: RGB(50,50,50);
@@ -37,7 +36,7 @@ label{
     margin: 50px auto  0px;
 }
 
-#div1{
+#div_welcome{
     text-align: center;
     height: 150px;
     position: relative;
@@ -99,12 +98,13 @@ label{
 }
 
 .SignIn{
-    margin: 40px 0;
+    margin: 30px 0;
     position: relative;
 }
 
 .link-button{
-    padding: 13px 150px;
+    display: block;
+    padding: 12px 0;
     border: 2px solid black;
     border-radius: 10px;
     background-color: #ffff00;
@@ -119,15 +119,15 @@ label{
 
 #stayLoggedInInput{
     position: absolute;
-    top: 50px;
-    left: 10px;
+    top: 70px;
+    left: 8px;
 
 }
 
 #Remember_me{
     position: absolute;
-    top: 50px;
-    left: 35px;
+    top: 70px;
+    left: 33px;
     font-size: 1em;
 
 }
