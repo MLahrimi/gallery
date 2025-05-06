@@ -1,0 +1,130 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    border-bottom: 3px solid rebeccapurple;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+}
+
+nav>a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+[href="gallery.html"]:visited{
+    color: gray;
+}
+
+.div_welcome, .div_pictures_videos{
+    background-color: #292326;
+    max-width: 1000px;
+    border-bottom: 2px solid black;
+    border-radius: 8px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.div_pictures_videos{
+    height: 1120px;
+}
+
+#div-beginGallery, #div-endGallery{
+    background-color: blueviolet;
+    border-radius: 8px;
+    max-width: 1000px;
+    height: 35px;
+    text-align: center; 
+    margin: 0 auto;
+    font-weight: bold;
+    padding-top: 8px;  
+}
+
+footer{
+    text-align: center;
+    padding-top: 15px;                                         
+    
+}
+
+footer>a{
+    color: white;
+    margin-top:5px;
+    border-right: 2px solid white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+#newsltter{
+    border-right: none;
+}
+
+@media (min-width: 300px) { 
+    img{
+      width: 284px;
+    }
+    #end_gallery, nav>a{
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 450px) { 
+    img{
+      width: 434.4px;
+    }
+    #end_gallery, nav>a{
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 620px) { 
+    img{
+      width: 604px;
+    }
+    #end_gallery, nav>a{
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 768px) {  
+    img{
+        width: 752px;
+      }
+    #end_gallery, nav>a{
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1024px) { 
+    img{
+        width: 850px;
+      }
+    #end_gallery, nav>a{
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
