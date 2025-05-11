@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    border-bottom: 3px solid rebeccapurple;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+}
+
+nav>a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+[href="customers.html"]:visited{
+    color: gray;
+}
+
+#overview{
+    background-color: #292326;
+    max-width: 400px;
+    margin: 80px auto;
+    border: 8px solid black;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+#table_container{
+    background-color: #292326;
+    max-width: 1000px;
+    height: 330px;
+    border: 8px solid black;
+    border-radius: 20px;
+    text-align: center;    
+    margin: 80px auto;
+}
+
+table{
+    margin: 10px auto;
+    display: block;
+    overflow: auto;
+
+}
+
+caption{
+    padding-bottom: 20px;
+}
+
+ th, td{
+    border-collapse: separate;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px 50px;   
+}
+
+td[class="true"]{
+    color: green;
+}
+
+td[class="false"]{
+    color: red;
+}
+
+tbody>tr:hover{
+    background-color: gray;
+}
+
+td:hover{
+    background-color: yellowgreen;
+}
+
+@media (max-width:364px) {
+    nav>a{
+        font-size: 0.7em;
+    }
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
